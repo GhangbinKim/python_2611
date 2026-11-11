@@ -51,6 +51,7 @@ text = 'python 123 java 456'
 result = re.search(r'\d+', text)
 print(result.group())
  '''
+''' 
 ## 정규표현식 : 문자열 치환
 text2 = '가격은 12000원 입니다.'
 
@@ -66,4 +67,4 @@ print(text3.split(','))
 
 # 정규식으로 숫자만 추출
 nums = re.findall(r'\d+', text3)
-print(nums)
+print(nums) '''
