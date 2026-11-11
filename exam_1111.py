@@ -72,7 +72,8 @@ with open('test.csv', 'w', newline='') as f:
 # 자료구조를 편하게 쓰도록 도와주는 것
 # 카운트, 큐, 딕셔너리 확장 기능 제공
 
-from collections import Counter
+''' from collections import Counter
 
 # 문자열에서 각 글자의 개수를 count 한다.
-print(Counter('banana'))
+print(Counter('banana')) '''
+
