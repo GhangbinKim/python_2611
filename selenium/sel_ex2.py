@@ -26,8 +26,8 @@ print('\n CLASS_NAME으로 찾은 첫 번째 명언 : ', first_quote_text.text)
 ## id로 요소 찾기
 # - id는 보통 페이지에서 '유일'하게 존재
 # - 정확하게 찾고 싶을 때 가장 안정
-element = driver.find_element(By.ID, "username")
-print('\nID로 찾은 요소의 태그 이름 : ', element.tag_name)
+# element = driver.find_element(By.ID, 'username')
+# print('\nID로 찾은 요소의 태그 이름 : ', element.tag_name)
 
 # find element vs find_elements
 # - find_element : 요소 1개만 찾음(없으면 에러 발생)
